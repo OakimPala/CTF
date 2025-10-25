@@ -83,8 +83,20 @@
 ![задание 4 скриншот 3](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-23%20234349.jpg?raw=true)
 ![задание 4 скриншот 4](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-23%20235534.jpg?raw=true)
 
+## Задание 5 — Node.js
+Кратко: перехват GET-запроса к api при помощи Burp, изменение запроса, изучение cve proof of concept(PoC), рекурсивное обращение к фильтру. 
+1. Открыл сайт, ввел логин пароль, получил ошибку что не авторизован.
+2. Использовал `Burp` для перхвата Get-запроса.
+3. Изменил запрос, добавив рекурсивное обращение `x-middleware-subrequest: middleware:middleware:middleware:middleware:middleware`.
+4. Получил флаг mospoly{n3Xtjs__bYp4ss_eNt0_zN4t_nAd0}
+
+![задание 5 скриншот 1](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%205/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-25%20195121.jpg?raw=true)
+![задание 5 скриншот 2](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%205/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-25%20195554.jpg?raw=true)
+![задание 5 скриншот 3](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%205/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-25%20195942.jpg?raw=true)
+![задание 5 скриншот 4](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%205/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-25%20200343.jpg?raw=true)
 ## Итог
 
-![Итоговый скриншот](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%204/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-24%20002609.jpg?raw=true)
+![Итоговый скриншот](https://github.com/OakimPala/CTF/blob/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%203/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-25%20200448.jpg?raw=true)
+
 
 
